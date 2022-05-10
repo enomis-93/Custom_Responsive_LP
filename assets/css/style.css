@@ -1,0 +1,101 @@
+.bg-light-green {
+  background-color: rgb(171, 194, 137);
+}
+
+.green-font {
+  color: rgb(171, 194, 137);
+}
+
+.bg-grey {
+  background-color: rgb(231, 231, 231);
+}
+
+.link:hover {
+  color: rgb(1, 243, 1) !important;
+  cursor: pointer;
+}
+
+/* Banner Animation */
+.banner {
+  animation: MoveUpDown 2s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 30px;
+  }
+}
+
+.op-title {
+  position: relative;
+  top: -70px;
+  color: rgba(0, 0, 0, 0.048);
+}
+
+/* Scroll to TOP button */
+.ontop-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  color: rgb(49, 143, 68);
+}
+
+.ontop-btn:hover {
+  color: rgb(170, 218, 98);
+}
+
+/* CLASSES TO MAKE MODAL WORK */
+/* .hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233, 233, 233, 0.6);
+  backdrop-filter: blur(2px);
+  z-index: 10;
+}
+
+.mostra-modal {
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+ */

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Boostrap Page</title>
+</head>
+<body>
+        <header>
+            <nav class=" px-3 navbar shadow navbar-expand-lg navbar-light bg-white fixed-top">
+                <div class="container-md">
+                    <span class="fw-bold fs-3 text-secondary">EPICODE</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active text-secondary" aria-current="page" href="#"><strong class="link">Home</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"><strong class="link">About</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"><strong class="link">Services</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"><strong class="link">Portfolio</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"><strong class="link">Team</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a class="nav-link text-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <strong class="link">Action</strong>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <a class="dropdown-item" href="#">Something else here</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                  </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#"><strong class="link">Contact</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><button type="button" class="btn btn-outline-secondary get-started-button"><strong class="link">Get Started</strong></button></a>
+                            </li>                       
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Banner -->
+        <section class="container py-4">
+            <div class="row">
+                <div class="col-md-6 d-flex py-5">
+                    <div class="my-auto">
+                        <p class="text-dark display-5 fw-bold">Elegant and creative solutions</p>
+                        <p class="text-secondary fw-normal">We are team of talented designers making websites with Bootstraps</p>
+                        <div>
+                            <button type="button" class="btn btn-success">Get Started</button>
+                            <i class="bi bi-play-circle d-inline text-secondary fs-5"> Watch video</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/img/hero-img.png" class="img-fluid banner" alt="">   
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards  -->
+        <section class="container d-flex justify-content-between pt-2">
+            <div class="card border-light card" style="width: 18rem;">
+                <div class="card-body bg-light mx-2">
+                    <i class="link bi bi-laptop fs-4 text-success"></i>
+                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card border-light card" style="width: 18rem;">
+                <div class="card-body  bg-light mx-2">
+                    <i class="link bi bi-card-checklist fs-4 text-success"></i>
+                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card border-light card" style="width: 18rem;">
+                <div class="card-body  bg-light mx-2">
+                    <i class="link bi bi-clipboard-data fs-4 text-success"></i>
+                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                  <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us with img -->
+        <section class="container my-4 ">
+             <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/img/about.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="h3 fw-bold text-right text-secondary">Volutpatem dignissimos provident quasi corporis volupats</p>
+                    <p class="font-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit nemo mollitia.</p>
+                    <div><i class="bi bi-check-circle"></i> <p class="d-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque.</p></div>
+                    <div><i class="bi bi-check-circle"></i> <p class="d-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque.</p></div>
+                    <div><i class="bi bi-check-circle"></i> <p class="d-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque.</p></div>
+                    <div class="mt-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi tempore possimus similique ducimus eius doloremque deleniti.
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <!-- Statistics -->
+        <section class="container d-flex pt-2 justify-content-around">
+            <div class="text-center">
+                <h2 class="counter-count fw-bold display-5 green-font">232</h2>
+                <p class="fw-bold">Clients</p>
+            </div>
+            <div class="text-center">
+                <h2 class="counter-count fw-bold display-5 green-font">521</h2>
+                <p class="fw-bold">Projects</p>
+            </div>
+            <div class="text-center">
+                <h2 class="counter-count fw-bold display-5 green-font">1436</h2>
+                <p class="fw-bold">Hours Of Support</p>
+            </div>
+            <div class="text-center">
+                <h2 class="counter-count fw-bold display-5 green-font">15</h2>
+                <p class="fw-bold">Hard Workers   </p>
+            </div>
+        </section>
+
+        <!-- Services Cards-->
+        <section class="bg-light">
+            <section class="py-5 container">
+                <div class="text-center postion-relative">
+                    <h3 class="fw-bold text-secondary">SERVICES</h3>
+                    <h3 class="op-title display-5 fw-bold ">SERVICES</h3>
+                    <p>Sit sint consectur velt quasiaf cupidate impedit sucript</p>
+                </div>
+                <!-- Continer Cards Services -->
+                <div class="container justify-content-around card-group col-md-12">
+                        <div class="row justify-content-center">
+                            <div class="card border-light card text-center m-2" style="width: 18rem;">
+                                <div class="card-body p-5">
+                                    <i class="link bi bi-dribbble fs-2 green-font"></i>
+                                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                                  <p class="card-text text-secondary">Some quick example text to build on the card title and</p>
+                                </div>
+                            </div>
+                            <div class="card border-light card text-center m-2" style="width: 18rem;">
+                                <div class="card-body p-5">
+                                    <i class="link bi bi-file-earmark-text fs-2 green-font"></i>
+                                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                                  <p class="card-text text-secondary">Some quick example text to build on the card title and</p>
+                                </div>
+                           </div>
+                            <div class="card border-light card text-center m-2" style="width: 18rem;">
+                                <div class="card-body p-5">
+                                    <i class="link bi bi-speedometer2 fs-2 green-font"></i>
+                                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                                  <p class="card-text text-secondary">Some quick example text to build on the card title and</p>
+                                </div>
+                            </div>
+                            <div class="card border-light card text-center m-2" style="width: 18rem;">
+                                <div class="card-body p-5">
+                                    <i class="link bi bi-clipboard-data fs-2 green-font"></i>
+                                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                                  <p class="card-text text-secondary">Some quick example text to build on the card title and</p>
+                                </div>
+                            </div>
+                            <div class="card border-light card text-center m-2" style="width: 18rem;">
+                                <div class="card-body p-5">
+                                    <i class="link bi bi-file-earmark-text fs-2 green-font"></i>
+                                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                                  <p class="card-text text-secondary">Some quick example text to build on the card title and</p>
+                                </div>
+                            </div>
+                            <div class="card border-light card text-center m-2" style="width: 18rem;">
+                                <div class="card-body p-5">
+                                    <i class="link bi bi-bank fs-2 green-font"></i>
+                                  <h5 class="card-title text-secondary">Lorem ipsum</h5>
+                                  <p class="card-text text-secondary">Some quick example text to build on the card title and</p>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+            </section>
+        </section>
+
+        <!-- Portfolio -->
+        <section>
+            <section class="py-5 container">
+                <div class="text-center">
+                    <h3 class="fw-bold text-secondary">PORTFOLIO</h3>
+                    <h3 class="op-title display-5 fw-bold">PORTFOLIO</h3>
+                    <p>Sit sint consectur velt quasiaf cupidate impedit sucript</p>
+                </div>
+                <div class="text-center d-flex justify-content-center">
+                    <button class="btn"><p class="mostra-modal link px-3 fw-bold">ALL</p></button>
+                    <button class="btn"> <p class="link px-3 fw-bold">APP</p></button>
+                    <button class="btn"><p class="link px-3 fw-bold">CARD</p></button>
+                    <button class="btn"><p class="link px-3 fw-bold">WEB</p></button>
+                    <!-- <div class="modal">
+                        <button class="close-modal">&times;</button>
+                        <h1>I'm a modal window 😍</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                          mollit anim id est laborum.
+                        </p>
+                      </div>
+                      <div class="overlay hidden"></div> -->
+                </div>
+            </section> 
+        </section>
+
+        
+        <!-- Testimonials -->
+        <section class="bg-light">
+            <section class="py-5 container ">
+                <div class="text-center">
+                    <h3 class="fw-bold text-secondary">TESTIMONIALS</h3>
+                    <h3 class="op-title display-5 fw-bold ">TESTIMONIALS</h3>
+                    <p>Sit sint consectur velt quasiaf cupidate impedit sucript</p>
+                </div>
+                <!-- Carousel Start -->
+                <div class="container">
+                    <div class="row">
+            
+                        <div class="col-12 text-center py-3">
+                            <a class="text-decoration-none text-secondary link" href="#carousel-indicator" role="button" data-slide="prev">
+                                <i class="bi bi-circle"></i>
+                            </a>
+                            <a class="text-decoration-none text-secondary link" href="#carousel-indicator" role="button" data-slide="next">
+                                <i class="bi bi-circle"></i>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <div id="carousel-indicator" class="carousel slide" data-ride="carousel">
+            
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+            
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                  <div class="card-body">
+                                                    <em class="card-text">
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                    </em>
+                                                  </div>
+                                                  <div class="p-2">
+                                                      <img class="img-fluid rounded-circle mb-2" width="90px" src="assets/img/testimonials-1.jpg" alt="">
+                                                      <p class="fw-bold fs-5 my-0">Jason Ulrich</p>
+                                                      <p class="text-secondary ">Graphic Designer</p>
+                                                  </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                  <div class="card-body">
+                                                    <em class="card-text">
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                    </em>
+                                                  </div>
+                                                  <div class="p-2">
+                                                      <img class="img-fluid rounded-circle mb-2" width="90px" src="assets/img/testimonials-2.jpg" alt="">
+                                                      <p class="fw-bold fs-5 my-0">Cyntia Cos</p>
+                                                      <p class="text-secondary ">Graphic Designer</p>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                  <div class="card-body">
+                                                    <em class="card-text">
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                    </em>
+                                                  </div>
+                                                  <div class="p-2">
+                                                      <img class="img-fluid rounded-circle mb-2" width="90px" src="assets/img/testimonials-3.jpg" alt="">
+                                                      <p class="fw-bold fs-5 my-0">Victoria Patterson</p>
+                                                      <p class="text-secondary ">Graphic Designer</p>
+                                                  </div>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+            
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                  <div class="card-body">
+                                                    <em class="card-text">
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                    </em>
+                                                  </div>
+                                                  <div class="p-2">
+                                                      <img class="img-fluid rounded-circle mb-2" width="90px" src="assets/img/testimonials-4.jpg" alt="">
+                                                      <p class="fw-bold fs-5 my-0">Mattew Anderson</p>
+                                                      <p class="text-secondary ">Graphic Designer</p>
+                                                  </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                  <div class="card-body">
+                                                    <em class="card-text">
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                          <i class="bi bi-quote text-secondary"></i>
+                                                    </em>
+                                                  </div>
+                                                  <div class="p-2">
+                                                      <img class="img-fluid rounded-circle mb-2" width="90px" src="assets/img/testimonials-5.jpg" alt="">
+                                                      <p class="fw-bold fs-5 my-0">Paul Dark</p>
+                                                      <p class="text-secondary ">Graphic Designer</p>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel End -->               
+            </section>
+        </section>
+
+        <!--' Call To action 'Section -->
+        <section class="bg-light-green">
+            <section class="py-5 container text-center text-white ">
+                <h2>Call To Action</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum quisquam ipsam eum sed doloremque</p>
+                <button type="button" class="btn btn-outline-light">CALL TO ACTION</button>
+            </section>
+        </section>
+
+        <!-- Team -->
+        <section class="bg-light py-5 col-md-12">
+            <section class="container">
+                <div class="text-center py-3">
+                    <h2 class="fw-bold  text-secondary">TEAM</h2>
+                    <h3 class="op-title display-5 fw-bold">TEAM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse </p>
+                </div>
+                <div class="shadow col-md-12 shadow-inset p-2 row justify-content-around">
+                    <!-- Team 1 -->
+                    <div class="d-flex col-sm-12 col-md-4 justify-content-center py-2">
+                        <div class="card text-center p-2 bg-white border-white" style="width: 18rem;">
+                            <div><img class="card-img-top img-fluid" src="assets/img/team-1.jpg" alt="Card image cap"></div>
+                            <div class="card-body">
+                              <h5 class="card-title my-0">Walter White</h5>
+                              <em class="fw-bold fs-7 my-0">Chief Executive Offices</em>
+                              <p class="card-text my-3 text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="text-secondary">
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                          </div>
+                    </div>
+
+                    <!-- Team 2 -->
+                    <div class="d-flex  col-sm-12 col-md-4 justify-content-center py-2">
+                        <div class="card text-center p-2 bg-white border-white" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="assets/img/team-2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title my-0">Walter White</h5>
+                              <em class="fw-bold fs-7 my-0">Chief Executive Offices</em>
+                              <p class="card-text my-3 text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="text-secondary">
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                          </div>
+                    </div>
+
+                    <!-- Team 3 -->
+                    <div class="d-flex  col-sm-12 col-md-4 justify-content-center py-2">
+                        <div class="card text-center p-2 bg-white border-white" style="width: 18rem;">
+                            <img class="card-img-top img-fluid" src="assets/img/team-3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title my-0">Walter White</h5>
+                              <em class="fw-bold fs-7 my-0">Chief Executive Offices</em>
+                              <p class="card-text my-3 text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="text-secondary">
+                                <i class="bi bi-twitter"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- CONTACT -->
+        <section>
+            <section class="py-5 container">
+                <div class="text-center">
+                    <h2 class="fw-bold  text-secondary">CONTACT</h2>
+                    <h3 class="op-title display-5 fw-bold">CONTACT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse </p>
+                </div>
+               <div class="container row justify-content-between col-md-12">
+                    <div class="col-md-6 col-sm-12 bg-light d-flex p-3 border-top border-bottom border-success my-2">
+                        <div class="">
+                            <!-- Location -->
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center">
+                                    <i class="bg-white rounded-circle bi bi-geo-alt h3 p-2 green-font"></i>
+                                </div>
+                                <div class="flex-fill px-3">
+                                    <h2 class="h4">Location: </h2>
+                                    <p class="text-secondary">A108 Adam Street, New York, NY 535022</p>
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center">
+                                    <i class="bg-white rounded-circle bi bi-envelope h3 p-2 green-font"></i>
+                                </div>
+                                <div class="flex-fill px-3">
+                                    <h2 class="h4">Email: </h2>
+                                    <p class="text-secondary">info@example.com</p>
+                                </div>
+                            </div>
+                            <!-- Call -->
+                            <div class="d-flex">
+                                <div class="d-flex align-items-center">
+                                    <i class="bg-white rounded-circle bi bi-phone h3 p-2 green-font"></i>
+                                </div>
+                                <div class="flex-fill px-3">
+                                    <h2 class="h4">Call: </h2>
+                                    <p class="text-secondary">+1 5589 55 488 55</p>
+                                </div>
+                            </div>
+                            <!-- Map -->
+                            <div>
+                                <iframe class="img-fluid"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115179.13632294587!2d-74.07450250239113!3d40.65901766909324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sit!2sit!4v1646066803234!5m2!1sit!2sit" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FORM -->
+                    <div class="col-md-6 col-sm-12 bg-light d-flex p-3 border-top border-bottom border-success my-2 ">
+                        <form>
+                            <div class="form-group d-flex justify-content-between">
+                                <div class="col-sm-5">
+                                    <label for="exampleFormControlInput1">Your Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" >
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleFormControlInput1">Your Mail</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" >
+                                </div>
+                            </div>
+                            <div>
+                                <label for="exampleFormControlInput1">Subject</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" >
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-success my-2 ">Send message</button>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+               </div>
+            </section>
+        </section>
+
+        <footer class="bg-light text-center py-5">
+            <section class="container d-flex justify-content-center">
+                <div class="col-md-7">
+                    <div class="py-2">
+                        <h2 class="fw-bold text-secondary">Epicode</h2>
+                        <em>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores aspernatur magni.</em>
+                    </div>
+                    <div class="d-flex py-3">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                        <button type="button" class="btn btn-success">Subscribe</button>  
+                    </div>
+                    <div class="text-secondary d-flex justify-content-center py-3">
+                       <i class="link bi bi-twitter rounded p-2 bg-grey mx-1"></i>
+                       <i class="link bi bi-facebook rounded p-2 bg-grey mx-1"></i>
+                       <i class="link bi bi-instagram rounded p-2 bg-grey mx-1"></i>
+                       <i class="link bi bi-skype rounded p-2 bg-grey mx-1"></i>
+                       <i class="link bi bi-linkedin rounded p-2 bg-grey mx-1"></i>
+                    </div>              
+                </div>
+            </section>
+            <section class="col-sm-12 px-3">
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <p class="text-secondary">&copy; Copyright <strong>Epicode</strong>. All Rights Reserved</p>
+                    <div class="d-flex">
+                        <p class="text-secondary">Designed by <span class="green-font">BootstrapMade</span></p>
+                        <button class="btn" onclick="topFunction()"><i class="ontop-btn bi bi-arrow-up-square-fill display-6 p-1 green-font"></i></button>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
